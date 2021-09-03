@@ -1,0 +1,25 @@
+language: php
+
+php:
+  - 7.2
+  - 7.3
+  - 7.4
+  - 8.0
+
+sudo: false
+
+# cache vendor dirs
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+before_script:
+  - travis_retry composer self-update && composer --version
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+  - travis_retry composer install --prefer-dist --no-interaction
+
+script:
+  - php -dxdebug.mode=coverage bin/phpunit --coverage-clover coverage.xml
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
