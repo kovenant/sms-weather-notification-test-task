@@ -1,4 +1,4 @@
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kovenant/sms-weather-notification-test-task/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kovenant/sms-weather-notification-test-task/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/kovenant/sms-weather-notification-test-task/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kovenant/sms-weather-notification-test-task/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kovenant/sms-weather-notification-test-task/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kovenant/sms-weather-notification-test-task/?branch=master) [![codecov](https://codecov.io/gh/kovenant/sms-weather-notification-test-task/branch/master/graph/badge.svg?token=BU5G1LFAUY)](https://codecov.io/gh/kovenant/sms-weather-notification-test-task)
 
 # Project run and installation
 
